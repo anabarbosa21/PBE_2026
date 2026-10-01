@@ -5,7 +5,7 @@
     $nome=$_POST['nome'];
     $salario_bruto_sem_desconto=$_POST['salario'];
     $hora_extra=$_POST['horas_extra'];
-    $beneficio=$_POST['baneficios'];
+    $beneficio=$_POST['beneficio'];
     $desconto=$_POST['desconto'];
 
 
