@@ -46,17 +46,17 @@ echo "<hr>";
 $aula1->exibirInformações();
 
 $aula1 = new Aula();
-$aula1 ->disciplina = "Programação";
-$aula1 ->professor = "Leonardo";
-$aula1 ->duracao = 4;
-$aula1 ->n_sala = 2;
-$aula1 ->bloco = "Anexo";
+$aula1 ->disciplina = "Baco de Dados";
+$aula1 ->professor = "Maecos";
+$aula1 ->duracao = 2;
+$aula1 ->n_sala = 8;
+$aula1 ->bloco = "C";
 
 $aula1->exibirInformações();
 echo "<hr>";
-$aula1->trocarProfessor("Grabriel");
+$aula1->trocarProfessor("Marcos");
 echo "<hr>";
-$aula1->alterarLocal("B",10);
+$aula1->alterarLocal("A",10);
 echo "<hr>";
 $aula1->exibirInformações();
 
